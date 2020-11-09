@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap');
+
+
+.container{
+  max-width: 1140px;
+  margin: 0 auto;
+}
+header{
+  background-image: url("image/BackHeader.jpg");
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+}
+
+.header__up{
+  height: 70px;
+  background: #194277;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header__accept{
+  font-family: 'Lato', sans-serif;
+  font-size: 14px;
+  line-height: 36px;
+  color: white;
+}
+.header__a{
+  text-decoration: none;
+  width: 110px;
+  height: 30px;
+  background: white;
+  border-radius: 20px;
+  font-family: 'Lato', sans-serif;
+  font-size: 12px;
+  line-height: 16.36px;
+  letter-spacing: 0.025em;
+  color: #194277;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 50px;
+}
+.header__main{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.header__logo{
+  margin-top: 110px;
+  margin-bottom: 70px;
+}
+.header__free{
+  font-family: 'Lato', sans-serif;
+  font-size: 50px;
+  line-height: 60px;
+  letter-spacing: 0.025em;
+  color: white;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 900;
+  margin-top: 0;
+  margin-bottom: 40px;
+}
+.header__lorem{
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
+  line-height: 35px;
+  letter-spacing: 0.025em;
+  color: white;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 300;
+  margin: 0 185px 75px 185px;
+}
+.header__hire{
+  width: 205px;
+  height: 55px;
+  background: white;
+  border-radius: 30px;
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.025em;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #4095FF;
+  margin-top: 0;
+  margin-bottom: 90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header__img{
+  margin-bottom: 25px;
+}

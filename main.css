@@ -1,8 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap');
-
-
-.container{
-    max-width: 1140px;
+body{
     margin: 0 auto;
 }
 header{
@@ -13,6 +10,7 @@ header{
 }
 
 .header__up{
+    width: 100vw;
     height: 70px;
     background: #194277;
     display: flex;

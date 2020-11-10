@@ -1,16 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap');
+$colorBlue: #3677fd;
+$mainFont: 'Lato', sans-serif;
+
 body{
   margin: 0 auto;
 }
 .container{
- max-width: 1140px;
+  max-width: 1140px;
   margin: 0 auto;
 }
 .header{
   background-image: url("image/BackHeader.jpg");
   background-size: cover;
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 
 .header__up{
   height: 70px;
@@ -275,7 +278,141 @@ body{
   margin-right: 10px;
 }
 
+/*-------section About Me---------*/
 
+.about {
+  background: #ffffff;
+  text-align: center;
+  font-family: $mainFont;
 
+  &__heading {
+    font-weight: 300;
+    font-size: 50px;
+    color: $colorBlue;
+    margin: 85px 50px 47px;
+     @media screen and (max-width: 1300px) {
+       font-size: 57px;
+     }
+     @media screen and (max-width: 425px) {
+       font-size: 37px;
+     }
+  }
+
+  &__text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 35px;
+    margin-bottom: 112px;
+      @media screen and (max-width: 1300px) {
+          font-size: 20px;
+          line-height: 40px;
+          padding: 0px 50px 0px;
+        }
+        @media screen and (max-width: 425px) {
+          font-size: 16px;
+          line-height: 32px;
+          padding: 0px 35px 0px;
+        }
+  }
+}
+
+/*-------section Expert In---------*/
+
+.expert {
+  background: #f1f8ff;
+  text-align: center;
+  font-family: $mainFont;
+
+  &__heading {
+    color: $colorBlue;
+    font-weight: 300;
+    font-size: 50px;
+    margin-bottom: 110px;
+    padding-top: 83px;
+    @media screen and (max-width: 1300px) {
+      font-size: 57px;
+    }
+    @media screen and (max-width: 425px) {
+      font-size: 37px;
+      margin-bottom: 60px;
+      padding-top: 35px;
+    }
+  }
+}
+.cards-expert {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  @media screen and (max-width: 1300px) {
+    padding: 0px 50px 0px;
+  }
+   @media screen and (max-width: 425px) {
+     padding: 0px 35px 0px;
+   }
+
+  &__card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 350px;
+    padding: 15px;
+    @media screen and (max-width: 1300px) {
+      padding: 30px;
+  }
+   }
+  &__img {
+    border: 1px solid #b7c0c9;
+    border-radius: 50%;
+    width: 144px;
+    height: 144px;
+
+    &:hover {
+      background: #ffff;
+      transition: all .3s;
+      border: 1px solid $colorBlue;
+    }
+  }
+  &__heading {
+    font-weight: 700;
+    font-size: 24px;
+    text-transform: uppercase;
+    color: $colorBlue;
+    text-decoration: none;
+    cursor: pointer;
+    display: block;
+    margin: 32px auto 0px;
+
+    &:hover {
+      color: #6094ff;
+      transition: all .2s;
+    }
+    @media screen and (max-width: 425px) {
+      font-size: 20px;
+    }
+  }
+  &__text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 35px;
+    color: #5a5a5a;
+    min-height: 135px;
+    margin: 0 0 52px 0;
+    @media screen and (max-width: 1300px) {
+      font-size: 20px;
+      line-height: 36px;
+    }
+    @media screen and (max-width: 425px) {
+      font-size: 16px;
+      line-height: 32px;
+    }
+  }
+
+}
+.cards-expert__ico {
+  padding-top: 28%;
+}
+
+/*-------section Latest Works---------*/
 
 

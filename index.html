@@ -12,14 +12,15 @@
 <header class="header">
     <div class="header__up">
         <p class="header__accept">This site uses cookies, so that my service can work better. </p>
-        <a class="header__a" href="#">Accept</a></div>
+        <a class="header__a" href="#">Accept</a>
+    </div>
 
     <section class="menu-pop-up">
         <input type="checkbox" id="hamburger">
         <label for="hamburger"><span></span></label>
         <div class="menu-pop-up__main">
-            <nav class="menu-pop-up__main__list">
-                <a class="menu-pop-up__main__list--item" href="#">About Me</a>
+            <nav class="menu-pop-up__main__list"> 
+                <a class="menu-pop-up__main__list--item"  href="#">About Me</a>
                 <a class="menu-pop-up__main__list--item" href="#">Services</a>
                 <a class="menu-pop-up__main__list--item" href="#">My Works</a>
                 <a class="menu-pop-up__main__list--item" href="#">Clients</a>
@@ -113,64 +114,75 @@
     </div></div>
 </header>
 <main>
-    <div class="main__first">
+    <section class="about">
         <div class="container">
-            <h1>About Me</h1>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit
-                esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+            <h2 class="about__heading">About Me</h2>
+            <p class="about__text">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis <br>
+                nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit<br>
+                esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia 
             </p>
         </div>
-    </div>
-    <div class="main__second">
-        <div class="container">
-            <h1>Expert In</h1>
-            <div class="main__second__cards">
-                <div class="main__second__cards_card">
-                    <img src="" alt="icon_card">
-                    <h2>MOBILE APP DESIGN</h2>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet dicta dignissimos eos hic iste modi molestias quasi ullam veniam, voluptatum. Beatae, explicabo magnam.
-                    </p>
-                </div>
-                <div class="main__second__cards_card">
-                    <img src="" alt="icon_card">
-                    <h2>WEB DESIGN</h2>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet dicta dignissimos eos hic iste modi molestias quasi ullam veniam, voluptatum. Beatae, explicabo magnam.
-                    </p>
-                </div>
-                <div class="main__second__cards_card">
-                    <img src="" alt="icon_card">
-                    <h2>WEB DEVELOPMENT</h2>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet dicta dignissimos eos hic iste modi molestias quasi ullam veniam, voluptatum. Beatae, explicabo magnam.
-                    </p>
-                </div>
-                <div class="main__second__cards_card">
-                    <img src="" alt="icon_card">
-                    <h2>PRODUCT DESIGN</h2>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet dicta dignissimos eos hic iste modi molestias quasi ullam veniam, voluptatum. Beatae, explicabo magnam.
-                    </p>
-                </div>
-                <div class="main__second__cards_card">
-                    <img src="" alt="icon_card">
-                    <h2>UX & UI</h2>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet dicta dignissimos eos hic iste modi molestias quasi ullam veniam, voluptatum. Beatae, explicabo magnam.
-                    </p>
-                </div>
-                <div class="main__second__cards_card">
-                    <img src="" alt="icon_card">
-                    <h2>ANIMATIONS</h2>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet dicta dignissimos eos hic iste modi molestias quasi ullam veniam, voluptatum. Beatae, explicabo magnam.
-                    </p>
-                </div>
-            </div>
+    </section>
+    <section class="expert">
+    <div class="container">
+      <h2 class="expert__heading">Expert In</h2>
+      <div class="cards-expert">
+        <div class="cards-expert__card">
+          <div class="cards-expert__img">
+            <a href="#"><img class="cards-expert__ico" src="/image/expert/ico-mobile.png" alt="mobile"></a>
+          </div>
+          <h4><a class="cards-expert__heading" href="#">mobile app design</a></h4> 
+          <p class="cards-expert__text">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.  Ut enim ad minim
+          </p>
         </div>
+        <div class="cards-expert__card">
+          <div class="cards-expert__img">
+             <a href="#"><img class="cards-expert__ico" src="/image/expert/ico-web.png" alt="monitor"></a>
+          </div>
+          <h4><a class="cards-expert__heading" href="#">web design</a></h4> 
+          <p class="cards-expert__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+          </p>
+        </div>
+        <div class="cards-expert__card">
+          <div class="cards-expert__img">
+             <a href="#"><img class="cards-expert__ico" src="/image/expert/ico-web-dev.png" alt="web-dev"></a>
+          </div>
+          <h4><a class="cards-expert__heading" href="#">web development</a></h4>
+          <p class="cards-expert__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.  Ut enim ad minim 
+          </p>
+        </div>
+        <div class="cards-expert__card">
+          <div class="cards-expert__img">
+             <a href="#"><img class="cards-expert__ico" src="/image/expert/ico-product.png" alt="bag"></a>
+          </div>
+          <h4><a class="cards-expert__heading" href="#">product design</a></h4>
+          <p class="cards-expert__text">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.  Ut enim ad minim 
+           </p>
+        </div>
+        <div class="cards-expert__card">
+          <div class="cards-expert__img">
+             <a href="#"><img class="cards-expert__ico" src="/image/expert/ico-UX.png" alt="UX"></a>
+          </div>
+          <h4><a class="cards-expert__heading" href="#">ux & ui</a></h4>
+          <p class="cards-expert__text">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.  
+            </p>
+        </div>
+        <div class="cards-expert__card">
+           <div class="cards-expert__img">
+            <a href="#"><img class="cards-expert__ico" src="/image/expert/ico-animations.png" alt="camera"></a>
+          </div>
+           <h4><a class="cards-expert__heading" href="#">animations</a></h4>
+          <p class="cards-expert__text">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.  Ut enim ad minim 
+          </p>
+        </div>
+      </div>
     </div>
+  </section>
     <div class="main__third">
         <div class="container">
             <h1>Latest Works</h1>

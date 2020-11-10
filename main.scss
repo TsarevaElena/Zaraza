@@ -1,28 +1,32 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap');
-
 body{
   margin: 0 auto;
 }
-header{
+.container{
+ max-width: 1140px;
+  margin: 0 auto;
+}
+.header{
   background-image: url("image/BackHeader.jpg");
   background-size: cover;
-  display: flex;
-  justify-content: center;
-}
+    display: flex;
+    flex-direction: column;
 
 .header__up{
-  width: 100vw;
   height: 70px;
   background: #194277;
   display: flex;
   justify-content: center;
   align-items: center;
+
 }
 .header__accept{
   font-family: 'Lato', sans-serif;
   font-size: 14px;
-  line-height: 36px;
   color: white;
+  @media screen and (max-width: 380px){
+    font-size: 10px;
+  }
 }
 .header__a{
   text-decoration: none;
@@ -32,23 +36,37 @@ header{
   border-radius: 20px;
   font-family: 'Lato', sans-serif;
   font-size: 12px;
-  line-height: 16.36px;
-  letter-spacing: 0.025em;
   color: #194277;
   font-weight: bold;
   display: flex;
   justify-content: center;
   align-items: center;
   margin-left: 50px;
+  @media screen and (max-width: 380px){
+    width: 80px;
+    height: 25px;
+    font-size: 12px;
+    margin-left: 30px;
+  }
 }
+  .header__a:hover{
+    background: #4095FF;
+    color: white;
+  }
+
 .header__main{
   display: flex;
   flex-direction: column;
   align-items: center;
 }
+  }
 .header__logo{
   margin-top: 110px;
   margin-bottom: 70px;
+  @media screen and (max-width: 380px){
+    margin-top: 50px;
+    margin-bottom: 30px;
+  }
 }
 .header__free{
   font-family: 'Lato', sans-serif;
@@ -61,6 +79,11 @@ header{
   font-weight: 900;
   margin-top: 0;
   margin-bottom: 40px;
+  @media screen and (max-width: 380px){
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 20px;
+  }
 }
 .header__lorem{
   font-family: 'Lato', sans-serif;
@@ -72,6 +95,10 @@ header{
   text-align: center;
   font-weight: 300;
   margin: 0 185px 75px 185px;
+  @media screen and (max-width: 380px){
+    font-size: 12px;
+    line-height: 15px;
+    margin: 0 10px 40px 10px;}
 }
 .header__hire{
   width: 205px;
@@ -80,7 +107,6 @@ header{
   border-radius: 30px;
   font-family: 'Lato', sans-serif;
   font-size: 16px;
-  line-height: 30px;
   letter-spacing: 0.025em;
   font-weight: bold;
   text-transform: uppercase;
@@ -91,8 +117,21 @@ header{
   display: flex;
   justify-content: center;
   align-items: center;
+  @media screen and (max-width: 380px){
+    width: 130px;
+    height: 42px;
+    font-size: 13px;
+    margin-top: 0;
+    margin-bottom: 50px;
+  }
 }
+  .header__hire:hover{
+    background: #194277;
+    color: white;
+  }
 
 .header__img{
   margin-bottom: 25px;
+
+}
 }

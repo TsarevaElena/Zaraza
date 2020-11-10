@@ -63,6 +63,12 @@ body {
   flex-direction: column;
   align-items: center;
 }
+@media screen and (max-width: 380px) {
+  .header .header__div {
+    width: 95px;
+    height: 95px;
+  }
+}
 .header .header__logo {
   margin-top: 110px;
   margin-bottom: 70px;

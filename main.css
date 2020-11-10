@@ -4,28 +4,34 @@ body {
 }
 
 .container {
-  width: 1140px;
+  max-width: 1140px;
   margin: 0 auto;
 }
 
-header {
+.header {
   background-image: url("image/BackHeader.jpg");
   background-size: cover;
+  display: flex;
+  flex-direction: column;
 }
-header .header__up {
+.header .header__up {
   height: 70px;
   background: #194277;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-header .header__accept {
+.header .header__accept {
   font-family: "Lato", sans-serif;
   font-size: 14px;
-  line-height: 36px;
   color: white;
 }
-header .header__a {
+@media screen and (max-width: 380px) {
+  .header .header__accept {
+    font-size: 10px;
+  }
+}
+.header .header__a {
   text-decoration: none;
   width: 110px;
   height: 30px;
@@ -33,8 +39,6 @@ header .header__a {
   border-radius: 20px;
   font-family: "Lato", sans-serif;
   font-size: 12px;
-  line-height: 16.36px;
-  letter-spacing: 0.025em;
   color: #194277;
   font-weight: bold;
   display: flex;
@@ -42,16 +46,34 @@ header .header__a {
   align-items: center;
   margin-left: 50px;
 }
-header .header__main {
+@media screen and (max-width: 380px) {
+  .header .header__a {
+    width: 80px;
+    height: 25px;
+    font-size: 12px;
+    margin-left: 30px;
+  }
+}
+.header .header__a:hover {
+  background: #4095FF;
+  color: white;
+}
+.header .header__main {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-header .header__logo {
+.header .header__logo {
   margin-top: 110px;
   margin-bottom: 70px;
 }
-header .header__free {
+@media screen and (max-width: 380px) {
+  .header .header__logo {
+    margin-top: 50px;
+    margin-bottom: 30px;
+  }
+}
+.header .header__free {
   font-family: "Lato", sans-serif;
   font-size: 50px;
   line-height: 60px;
@@ -63,7 +85,14 @@ header .header__free {
   margin-top: 0;
   margin-bottom: 40px;
 }
-header .header__lorem {
+@media screen and (max-width: 380px) {
+  .header .header__free {
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 20px;
+  }
+}
+.header .header__lorem {
   font-family: "Lato", sans-serif;
   font-size: 16px;
   line-height: 35px;
@@ -74,14 +103,20 @@ header .header__lorem {
   font-weight: 300;
   margin: 0 185px 75px 185px;
 }
-header .header__hire {
+@media screen and (max-width: 380px) {
+  .header .header__lorem {
+    font-size: 12px;
+    line-height: 15px;
+    margin: 0 10px 40px 10px;
+  }
+}
+.header .header__hire {
   width: 205px;
   height: 55px;
   background: white;
   border-radius: 30px;
   font-family: "Lato", sans-serif;
   font-size: 16px;
-  line-height: 30px;
   letter-spacing: 0.025em;
   font-weight: bold;
   text-transform: uppercase;
@@ -93,7 +128,20 @@ header .header__hire {
   justify-content: center;
   align-items: center;
 }
-header .header__img {
+@media screen and (max-width: 380px) {
+  .header .header__hire {
+    width: 130px;
+    height: 42px;
+    font-size: 13px;
+    margin-top: 0;
+    margin-bottom: 50px;
+  }
+}
+.header .header__hire:hover {
+  background: #194277;
+  color: white;
+}
+.header .header__img {
   margin-bottom: 25px;
 }
 

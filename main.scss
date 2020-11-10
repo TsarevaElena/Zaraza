@@ -274,7 +274,71 @@ body{
   height: 33px;
   margin-right: 10px;
 }
+.s__client {
+  background: #F1F8FF;
+  margin: 0 auto;
 
+  .container {
+    width: 1140px;
+    margin: 0 auto;
+
+  article{
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    text-align: center;
+    color: #3871FD;
+    padding-top: 85px;
+    font-size: 50px;
+  }
+  .s__clients {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 70px;
+    padding-bottom: 115px;
+  }
+
+}
+}
+footer {
+  background-image: url("img/footer.png");
+  background-size: cover;
+  height: 150px;
+  .container {
+    width: 1140px;
+    margin: 0 auto;
+  }
+  .foot {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  p {
+    color: white;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 50px;
+    span {
+      font-family: 'Lato', sans-serif;
+      font-weight: 700;
+    }
+  }
+a {
+  margin: 0;
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  color: #3871FD;
+  background: white;
+  text-decoration: none;
+  border-radius: 50px;
+  width: 204px;
+  height: 55px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+}
 
 
 

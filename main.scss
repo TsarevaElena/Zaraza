@@ -154,7 +154,7 @@ body{
   input:checked ~ & {
     display: flex;
     flex-direction: column;
-    width: 1173px;
+    width: 58.65%;
     height: 660px;
     background: #ffffff;
     overflow: auto;
@@ -162,74 +162,41 @@ body{
     position: fixed;
     top: 135px;
     right: 20.5vw;
-    //@media screen and (max-width: 4200px) {
-    //  width: 2200px;
-    //}
-    //@media screen and (max-width: 3800px) {
-    //  width: 2000px;
-    //}
-    //@media screen and (max-width: 3400px) {
-    //  width: 1800px;
-    //}
-    //@media screen and (max-width: 3000px) {
-    //  width: 1600px;
-    //}
-    //@media screen and (max-width: 2600px) {
-    //  width: 1400px;
-    //}
-    @media screen and (max-width: 1800px) {
-      width: 1000px;
-    }
-    @media screen and (max-width: 1700px) {
-      width: 900px;
-    }
-    @media screen and (max-width: 1500px) {
-      width: 800px;
-    }
-    @media screen and (max-width: 1300px) {
-      width: 700px;
-    }
-    @media screen and (max-width: 1100px) {
-      width: 600px;
-    }
-    @media screen and (max-width: 900px) {
-      width: 500px;
-    }
     @media screen and (max-width: 700px) {
-      width: 350px;
       .menu-pop-up__main__lang {
-        margin-top: 40px;
+        margin-top: 30px;
         justify-content: center;
       }
     }
     @media screen and (max-width: 600px) {
-      width: 330px;
-      height: 670px;
       .menu-pop-up__main__lang {
-        margin-top: 40px;
+        margin-top: 30px;
         justify-content: center;
       }
     }
     @media screen and (max-width: 500px) {
-      width: 300px;
-      height: 670px;
+      width: 280px;
+      .menu-pop-up__main__social--a {
+        margin-right: 2px;
+        margin-left: 2px;
+      }
       .menu-pop-up__main__lang {
-        margin-top: 40px;
+        margin-top: 30px;
         justify-content: center;
       }
     }
     @media screen and (max-width: 400px) {
       width: 250px;
-      height: 580px;
+      height: 560px;
       .menu-pop-up__main__social {
         height: 30px;
-        margin-top: 50px;
+        margin-top: 40px;
       }
       .menu-pop-up__main__list a {
         font-size: 40px;
       }
       .menu-pop-up__main__lang {
-        margin-top: 40px;
+        margin-top: 30px;
         justify-content: center;
       }
       .menu-pop-up__main__social--a {

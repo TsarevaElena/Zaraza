@@ -167,7 +167,7 @@ body {
 input:checked ~ .menu-pop-up__main {
   display: flex;
   flex-direction: column;
-  width: 1173px;
+  width: 58.65%;
   height: 660px;
   background: #ffffff;
   overflow: auto;
@@ -176,79 +176,45 @@ input:checked ~ .menu-pop-up__main {
   top: 135px;
   right: 20.5vw;
 }
-@media screen and (max-width: 1800px) {
-  input:checked ~ .menu-pop-up__main {
-    width: 1000px;
-  }
-}
-@media screen and (max-width: 1700px) {
-  input:checked ~ .menu-pop-up__main {
-    width: 900px;
-  }
-}
-@media screen and (max-width: 1500px) {
-  input:checked ~ .menu-pop-up__main {
-    width: 800px;
-  }
-}
-@media screen and (max-width: 1300px) {
-  input:checked ~ .menu-pop-up__main {
-    width: 700px;
-  }
-}
-@media screen and (max-width: 1100px) {
-  input:checked ~ .menu-pop-up__main {
-    width: 600px;
-  }
-}
-@media screen and (max-width: 900px) {
-  input:checked ~ .menu-pop-up__main {
-    width: 500px;
-  }
-}
 @media screen and (max-width: 700px) {
-  input:checked ~ .menu-pop-up__main {
-    width: 350px;
-  }
   input:checked ~ .menu-pop-up__main .menu-pop-up__main__lang {
-    margin-top: 40px;
+    margin-top: 30px;
     justify-content: center;
   }
 }
 @media screen and (max-width: 600px) {
-  input:checked ~ .menu-pop-up__main {
-    width: 330px;
-    height: 670px;
-  }
   input:checked ~ .menu-pop-up__main .menu-pop-up__main__lang {
-    margin-top: 40px;
+    margin-top: 30px;
     justify-content: center;
   }
 }
 @media screen and (max-width: 500px) {
   input:checked ~ .menu-pop-up__main {
-    width: 300px;
-    height: 670px;
+    width: 280px;
+  }
+  input:checked ~ .menu-pop-up__main .menu-pop-up__main__social--a {
+    margin-right: 2px;
+    margin-left: 2px;
   }
   input:checked ~ .menu-pop-up__main .menu-pop-up__main__lang {
-    margin-top: 40px;
+    margin-top: 30px;
     justify-content: center;
   }
 }
 @media screen and (max-width: 400px) {
   input:checked ~ .menu-pop-up__main {
     width: 250px;
-    height: 580px;
+    height: 560px;
   }
   input:checked ~ .menu-pop-up__main .menu-pop-up__main__social {
     height: 30px;
-    margin-top: 50px;
+    margin-top: 40px;
   }
   input:checked ~ .menu-pop-up__main .menu-pop-up__main__list a {
     font-size: 40px;
   }
   input:checked ~ .menu-pop-up__main .menu-pop-up__main__lang {
-    margin-top: 40px;
+    margin-top: 30px;
     justify-content: center;
   }
   input:checked ~ .menu-pop-up__main .menu-pop-up__main__social--a {

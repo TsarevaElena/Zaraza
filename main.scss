@@ -276,10 +276,10 @@ body{
     color: #E1E1E1;
     font-size: 50px;
     font-weight: 300;
-    font-family: 'Lato', sans-serif;
+    font-family: $mainFont;
   }
   a:hover {
-    color: #3677fd;
+    color: $colorBlue;
   }
 }
 .menu-pop-up__main__list--item {
@@ -307,7 +307,7 @@ body{
   width: 51px;
   height: 51px;
   &:hover {
-    fill: #3677fd;
+    fill: $colorBlue;
   }
 }
 .menu-pop-up__main__lang {
@@ -315,12 +315,12 @@ body{
   justify-content: flex-end;
   align-items: center;
   color: #E1E1E1;
-  font-family: 'Lato', sans-serif;
+  font-family: $mainFont;
   font-weight: 300;
   margin-top: 18px;
   margin-bottom: 15px;
   &:hover {
-    color: #3677fd;
+    color: $colorBlue;
   }
 }
 .menu-pop-up__main__lang--svg {

@@ -176,6 +176,36 @@ input:checked ~ .menu-pop-up__main {
   top: 120px;
   right: 20.5vw;
 }
+@media screen and (max-width: 4200px) {
+  input:checked ~ .menu-pop-up__main {
+    width: 2200px;
+  }
+}
+@media screen and (max-width: 3800px) {
+  input:checked ~ .menu-pop-up__main {
+    width: 2000px;
+  }
+}
+@media screen and (max-width: 3400px) {
+  input:checked ~ .menu-pop-up__main {
+    width: 1800px;
+  }
+}
+@media screen and (max-width: 3000px) {
+  input:checked ~ .menu-pop-up__main {
+    width: 1600px;
+  }
+}
+@media screen and (max-width: 2600px) {
+  input:checked ~ .menu-pop-up__main {
+    width: 1400px;
+  }
+}
+@media screen and (max-width: 2200px) {
+  input:checked ~ .menu-pop-up__main {
+    width: 1200px;
+  }
+}
 @media screen and (max-width: 1800px) {
   input:checked ~ .menu-pop-up__main {
     width: 1000px;
@@ -210,38 +240,45 @@ input:checked ~ .menu-pop-up__main {
   input:checked ~ .menu-pop-up__main {
     width: 350px;
   }
+  input:checked ~ .menu-pop-up__main .menu-pop-up__main__lang {
+    margin-top: 40px;
+    justify-content: center;
+  }
 }
 @media screen and (max-width: 600px) {
   input:checked ~ .menu-pop-up__main {
     width: 330px;
+    height: 670px;
+  }
+  input:checked ~ .menu-pop-up__main .menu-pop-up__main__lang {
+    margin-top: 40px;
+    justify-content: center;
   }
 }
 @media screen and (max-width: 500px) {
   input:checked ~ .menu-pop-up__main {
     width: 300px;
-  }
-  input:checked ~ .menu-pop-up__main .menu-pop-up__main__line {
-    display: none;
+    height: 670px;
   }
   input:checked ~ .menu-pop-up__main .menu-pop-up__main__lang {
+    margin-top: 40px;
     justify-content: center;
   }
 }
 @media screen and (max-width: 400px) {
   input:checked ~ .menu-pop-up__main {
     width: 250px;
+    height: 580px;
   }
   input:checked ~ .menu-pop-up__main .menu-pop-up__main__social {
     height: 30px;
-    margin-top: 20px;
+    margin-top: 50px;
   }
   input:checked ~ .menu-pop-up__main .menu-pop-up__main__list a {
-    font-size: 30px;
-  }
-  input:checked ~ .menu-pop-up__main .menu-pop-up__main__line {
-    display: none;
+    font-size: 40px;
   }
   input:checked ~ .menu-pop-up__main .menu-pop-up__main__lang {
+    margin-top: 40px;
     justify-content: center;
   }
   input:checked ~ .menu-pop-up__main .menu-pop-up__main__social--a {

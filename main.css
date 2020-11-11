@@ -157,7 +157,7 @@ body {
   margin: 0 auto;
   background: none;
   position: fixed;
-  top: 80px;
+  top: 95px;
   right: 20.5vw;
 }
 
@@ -173,38 +173,8 @@ input:checked ~ .menu-pop-up__main {
   overflow: auto;
   border-radius: 0 0 9px 9px;
   position: fixed;
-  top: 120px;
+  top: 135px;
   right: 20.5vw;
-}
-@media screen and (max-width: 4200px) {
-  input:checked ~ .menu-pop-up__main {
-    width: 2200px;
-  }
-}
-@media screen and (max-width: 3800px) {
-  input:checked ~ .menu-pop-up__main {
-    width: 2000px;
-  }
-}
-@media screen and (max-width: 3400px) {
-  input:checked ~ .menu-pop-up__main {
-    width: 1800px;
-  }
-}
-@media screen and (max-width: 3000px) {
-  input:checked ~ .menu-pop-up__main {
-    width: 1600px;
-  }
-}
-@media screen and (max-width: 2600px) {
-  input:checked ~ .menu-pop-up__main {
-    width: 1400px;
-  }
-}
-@media screen and (max-width: 2200px) {
-  input:checked ~ .menu-pop-up__main {
-    width: 1200px;
-  }
 }
 @media screen and (max-width: 1800px) {
   input:checked ~ .menu-pop-up__main {

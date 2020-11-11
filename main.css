@@ -400,14 +400,14 @@ input:checked ~ .menu-pop-up__main {
   .about__text {
     font-size: 20px;
     line-height: 40px;
-    padding: 0px 50px 0px;
+    padding: 0 50px 0;
   }
 }
 @media screen and (max-width: 425px) {
   .about__text {
     font-size: 16px;
     line-height: 32px;
-    padding: 0px 35px 0px;
+    padding: 0 35px 0;
   }
 }
 
@@ -444,12 +444,12 @@ input:checked ~ .menu-pop-up__main {
 }
 @media screen and (max-width: 1300px) {
   .cards-expert {
-    padding: 0px 50px 0px;
+    padding: 0 50px 0;
   }
 }
 @media screen and (max-width: 425px) {
   .cards-expert {
-    padding: 0px 35px 0px;
+    padding: 0 35px 0;
   }
 }
 .cards-expert__card {
@@ -484,7 +484,7 @@ input:checked ~ .menu-pop-up__main {
   text-decoration: none;
   cursor: pointer;
   display: block;
-  margin: 32px auto 0px;
+  margin: 32px auto 0;
 }
 .cards-expert__heading:hover {
   color: #6094ff;

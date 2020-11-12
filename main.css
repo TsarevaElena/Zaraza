@@ -740,6 +740,10 @@ input:checked ~ .menu-pop-up__main {
 @media screen and (max-width: 1000px) {
   .client .clients {
     padding-bottom: 70px;
+    flex-direction: column;
+  }
+  .client .clients a {
+    margin-bottom: 40px;
   }
 }
 @media screen and (max-width: 600px) {

@@ -21,6 +21,9 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    @media screen and (max-width: 550px) {
+      padding: 0 20px 0;
+    }
 
   }
   .header__accept{
@@ -168,12 +171,16 @@ body{
 .pop_up_form {
   display: none;
   position: fixed;
-  top: 100px;
+  top: 110px;
   margin: 0 auto;
   background: white;
-  width: 810px;
+  max-width: 810px;
   height: 625px;
   border-radius: 15px;
+  @media screen and (max-width: 860px) {
+    max-width: 95%;
+    height: auto;
+  }
 //  @media screen and (max-width: 900px){
 //    width: 610px;
 //    height: 580px;
@@ -183,7 +190,7 @@ body{
 //}
   input:nth-of-type(2) {
     padding-left: 20px;
-    width: 500px;
+    max-width: 500px;
     height: 50px;
     border: 1px solid;
     border-radius: 20px;
@@ -196,7 +203,7 @@ body{
   }
   input:nth-of-type(3) {
     padding-left: 20px;
-    width: 500px;
+    max-width: 500px;
     height: 50px;
     border: 1px solid;
     border-radius: 20px;
@@ -209,7 +216,7 @@ body{
   }
   input:nth-of-type(4) {
     padding-left: 20px;
-    width: 500px;
+    max-width: 500px;
     height: 180px;
     border: 1px solid;
     border-radius: 20px;
@@ -674,6 +681,9 @@ input.btn:checked + .pop_up_form{
     font-weight: 300;
     text-align: center;
     margin-top: 50px;
+    @media screen and (max-width: 425px) {
+       font-size: 37px;
+    }
   }
 }
 
@@ -736,6 +746,8 @@ footer {
   background-size: cover;
   height: 150px;
   margin: 0 auto;
+  display: flex;
+  align-items: center;
 
   .foot {
     display: flex;
@@ -786,7 +798,7 @@ footer {
   }
   @media screen and (max-width: 1010px) {
     .a__a {
-      font-size: 10px;
+      font-size: 13px;
       border-radius: 40px;
       width: 120px;
       height: 50px;

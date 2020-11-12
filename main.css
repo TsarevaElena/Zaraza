@@ -231,6 +231,9 @@ body {
   font-weight: 300;
   outline: none;
 }
+.pop_up_form input::placeholder {
+  opacity: 0.7;
+}
 .pop_up_form input:active {
   border: none;
 }

@@ -219,6 +219,9 @@ body{
     font-weight: 300;
     outline:none;
   }
+  input::placeholder {
+    opacity: .7;
+  }
   input:active {
     border: none;
   }

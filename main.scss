@@ -37,7 +37,7 @@ body{
     height: 30px;
     background: white;
     border-radius: 20px;
-    font-family: 'Lato', sans-serif;
+    font-family: $mainFont;
     font-size: 12px;
     color: #194277;
     font-weight: bold;
@@ -72,7 +72,7 @@ body{
   }
 }
 .header__free{
-  font-family: 'Lato', sans-serif;
+  font-family: $mainFont;
   font-size: 50px;
   line-height: 60px;
   letter-spacing: 0.025em;
@@ -94,7 +94,7 @@ body{
 
 }
 .header__lorem{
-  font-family: 'Lato', sans-serif;
+  font-family: $mainFont;
   font-size: 16px;
   line-height: 35px;
   letter-spacing: 0.025em;
@@ -107,10 +107,6 @@ body{
     font-size: 12px;
     letter-spacing: 0;
   }
-  //@media screen and (max-width: 900px){
-  //  width: 610px;
-  //  height: 580px;
-  //}
   @media screen and (max-width: 380px){
     font-size: 12px;
     line-height: 15px;
@@ -121,7 +117,7 @@ body{
   height: 55px;
   background: white;
   border-radius: 30px;
-  font-family: 'Lato', sans-serif;
+  font-family: $mainFont;
   font-size: 16px;
   letter-spacing: 0.025em;
   font-weight: bold;
@@ -155,7 +151,7 @@ body{
   background: white;
   color: #4095FF;
   font-size: 16px;
-  font-family: 'Lato', sans-serif;
+  font-family: $mainFont;
   font-weight: 700;
   border-radius: 30px;
   border: none;
@@ -186,7 +182,7 @@ body{
     border-color: #b7c0c9;
     font-size: 16px;
     color: #b7c0c9;
-    font-family: 'Lato', sans-serif;
+    font-family: $mainFont;
     font-weight: 300;
     outline:none;
   }
@@ -199,7 +195,7 @@ body{
     border-color: #b7c0c9;
     font-size: 16px;
     color: #b7c0c9;
-    font-family: 'Lato', sans-serif;
+    font-family: $mainFont;
     font-weight: 300;
     outline:none;
   }
@@ -212,7 +208,7 @@ body{
     border-color: #b7c0c9;
     font-size: 16px;
     color: #b7c0c9;
-    font-family: 'Lato', sans-serif;
+    font-family: $mainFont;
     font-weight: 300;
     outline:none;
   }
@@ -237,7 +233,7 @@ body{
     background: #4095FF;
     color: white;
     font-size: 16px;
-    font-family: 'Lato', sans-serif;
+    font-family: $mainFont;
     font-weight: 700;
     border-radius: 30px;
     border: none;
@@ -252,7 +248,7 @@ body{
     margin-left: 765px;
   }
   p {
-    font-family: 'Lato', sans-serif;
+    font-family: $mainFont;
     font-weight: 700;
     margin-top: 20px;
     font-size: 50px;
@@ -261,7 +257,6 @@ body{
     @media screen and (max-width: 900px) {
       margin-bottom: 20px;
     }
-
   }
 }
 #close:checked + .pop_up_form{
@@ -293,6 +288,9 @@ input.btn:checked + .pop_up_form{
   position: fixed;
   top: 9vh;
   right: 20.675vw;
+  input:checked ~ & {
+  background: white;
+  }
   @media screen and (max-width: 400px) {
     top: 12vh;
     right: 14vw;
@@ -662,7 +660,7 @@ input.btn:checked + .pop_up_form{
   }
   .latest__text {
     color: #469dff;
-    font-family: "Lato", sans-serif;
+    font-family: $mainFont;
     font-size: 50px;
     padding-bottom: 90px;
     font-weight: 300;
@@ -678,7 +676,7 @@ input.btn:checked + .pop_up_form{
   margin: 0 auto;
 
   #clients {
-    font-family: "Lato", sans-serif;
+    font-family: $mainFont;
     font-weight: 300;
     text-align: center;
     color: #3871FD;
@@ -738,7 +736,7 @@ footer {
   }
   p {
     color: white;
-    font-family: "Lato", sans-serif;
+    font-family: $mainFont;
     font-weight: 300;
     font-size: 50px;
     margin-bottom: 40px;
@@ -760,11 +758,11 @@ footer {
     }
   }
   span {
-    font-family: "Lato", sans-serif;
+    font-family: $mainFont;
     font-weight: 700;
   }
   .a__a {
-    font-family: "Lato", sans-serif;
+    font-family: $mainFont;
     font-weight: 700;
     font-size: 16px;
     color: #3871FD;
